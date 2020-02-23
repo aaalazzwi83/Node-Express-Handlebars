@@ -1,64 +1,22 @@
 body {
-    background-image: url("../images/bikinibottom.jpeg");
-    background-size: 100%;
-    background-color:	#00549D;
-}
-
-.titleText {
-    text-align: center;
-    color: gold;
-    font-size: 100px;
-    font-family: 'Skranji', cursive;
-   
-}
-
-.miniHeading {
-    color: gold;
-    text-align: center;
-    font-size: 38px;
-    font-family: 'Cabin Condensed', sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.addBurger {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.krabbyPatty {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-.moveMe {
-    text-align: center;
-    margin: 0 auto 3% 0;
-
-}
-
-
-.showBurger {
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Cabin Condensed', sans-serif;
-}
-
-.devourBurger
-{
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Cabin Condensed', sans-serif;
-
-}
-
-.btn {
-    padding-top: 0px;
-}
-
-p {
-    color: palegoldenrod;
-}
+    background-color: #00ccff;
+  }
+  
+  .jumbotron h1{
+      color: #ff33cc;
+  
+  }
+  
+  .jumbotron{
+      padding-top: 1%;
+      background-color:transparent !important;
+  }
+  
+  img {
+  margin-top: 5%;
+    width: 15%;
+  }
+  
+  .submitFont{
+      color: green;
+  }

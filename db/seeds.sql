@@ -1,11 +1,7 @@
-USE burgers_db;
+-- Select burgers_db
+USE `burgers_db`;
 
-INSERT INTO burgers (burger_name) VALUES ("Emergency Krabby Patty");
-
-INSERT INTO burgers (burger_name) VALUES ("Krabby Patty in a Can");
-
-INSERT INTO burgers (burger_name) VALUES ("All-Bun Patty");
-
-INSERT INTO burgers (burger_name) VALUES ("Krabby Double Deluxe");
-
-INSERT INTO burgers (burger_name) VALUES ("Double Triple Bossy Deluxe");
+-- insert 3 burgers
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Angus', false, CURRENT_TIMESTAMP);
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Salmon', false, CURRENT_TIMESTAMP);
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Mushroom', false, CURRENT_TIMESTAMP);
