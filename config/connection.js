@@ -14,7 +14,8 @@ else
 	{
 		host: 'kil9uzd3tgem3naa.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	',
 		user: 'uafaowg0y4huycqb',
-		password: "f50stducvaij2fmx",
+		password: "f50stducvaij2fmx",port :3306,
+		
 		database: 'c6kv4tfh1iq84qd4'
 	});
 };
