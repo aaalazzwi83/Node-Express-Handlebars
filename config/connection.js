@@ -4,22 +4,20 @@ var mysql = require ('mysql');
 
 var connection;
 
-// if (process.env.JAWSDB_URL)
-// {
-// 	connection = mysql.createConnection(process.env.JAWSDB_URL);
-// }
-// else
-// {
+if (process.env.JAWSDB_URL)
+{
+	connection = mysql.createConnection(process.env.JAWSDB_URL);
+}
+else
+{
 	connection = mysql.createConnection(
 	{
-		host: 'kil9uzd3tgem3naa.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	',
-		user: 'uafaowg0y4huycqb',
-		password: "f50stducvaij2fmx",
-		port :3306,
-
-		database: 'c6kv4tfh1iq84qd4'
+		host: 'localhost',
+		user: 'root',
+		password: "123456789",
+		database: 'burgers_db'
 	});
-//};
+};
 
 
 connection.connect(function(err) 
